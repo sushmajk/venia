@@ -1,0 +1,79 @@
+/* Colors:  1
+$primary-d1: #172BC4;
+$primary-m1: #336DFF;
+$primary-brand: #1F39FF;
+$primary-l1: #3D84FF;
+$gray-d2: #181C24;
+$gray-d1: #535965;
+$gray-m1: #91959C;
+$gray-l2: #B5B7BC;
+$gray-l1: #E5E5E7;
+$white: #FFFFFF;
+$positive-2: #12805C;
+$positive-1: #268E6C;
+$negative-2: #C9252D;
+$negative-1: #D7373F; */
+/* Font/text values */
+/* Character Styles */
+.filter-19 {
+  width: 19%;
+}
+.filter-19 .filter .tiltle {
+  font: normal normal normal 20px Muli;
+  letter-spacing: 0px;
+  color: #181C24;
+  text-align: left;
+  font: normal normal normal 20px/14px Muli;
+  opacity: 1;
+}
+.filter-19 .filter .tiltle2 {
+  text-align: left;
+  font: normal normal 600 16px/24px Muli;
+  letter-spacing: 0px;
+  color: #181C24;
+  opacity: 1;
+}
+.filter-19 .filter .divider {
+  border-top: 1px solid #e4e0e0;
+}
+.filter-19 .filter .btn {
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 19px 25px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+}
+.filter-19 .filter .btn-black {
+  background: #172026 0% 0% no-repeat padding-box;
+}
+.filter-19 .filter .btn-white {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid #DFE1E2;
+}
+.filter-19 .filter .btn-darkGreen {
+  background: #268E6C 0% 0% no-repeat padding-box;
+}
+.filter-19 .filter .btn-yellow {
+  background: #fdba5e 0% 0% no-repeat padding-box;
+}
+.filter-19 .filter .btn-blue {
+  border: 2px solid #FFFFFF;
+  background: #FDA65D 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+}
+.filter-19 .filter .btn-red {
+  background: #e34850 0% 0% no-repeat padding-box;
+}
+.filter-19 .filter .btn-darkBlue {
+  background: #FF8243 0% 0% no-repeat padding-box;
+}
+.filter-19 .filter .btn-pink {
+  background: #f9009a 0% 0% no-repeat padding-box;
+}
+.filter-19 .filter .btn-orange {
+  background: #eb7327 0% 0% no-repeat padding-box;
+}
+.filter-19 .filter .btn-rainbow {
+  background: transparent linear-gradient(180deg, #af52ff 0%, #7950e8 16%, #4f5ada 29%, #57cb76 43%, #ebc250 56%, #ff8810 69%, #e32f0f 83%, #bf1919 100%) 0% 0% no-repeat padding-box;
+}/*# sourceMappingURL=filter.css.map */

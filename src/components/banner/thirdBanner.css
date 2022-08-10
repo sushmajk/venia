@@ -1,0 +1,226 @@
+/* Colors:  1
+$primary-d1: #172BC4;
+$primary-m1: #336DFF;
+$primary-brand: #1F39FF;
+$primary-l1: #3D84FF;
+$gray-d2: #181C24;
+$gray-d1: #535965;
+$gray-m1: #91959C;
+$gray-l2: #B5B7BC;
+$gray-l1: #E5E5E7;
+$white: #FFFFFF;
+$positive-2: #12805C;
+$positive-1: #268E6C;
+$negative-2: #C9252D;
+$negative-1: #D7373F; */
+/* Font/text values */
+/* Character Styles */
+.third_banner {
+  display: flex;
+}
+.third_banner .banner-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 16px 0px;
+}
+.third_banner .card {
+  position: relative;
+  width: 100%;
+  min-height: 203px;
+  height: auto;
+  overflow: hidden;
+  padding: 108px 82px 120px 108px;
+  background: #1B252C;
+  background: linear-gradient(to bottom, #1B252C, #1B252C);
+}
+.third_banner .card .text {
+  font: normal normal 600 48px Source Serif Pro;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-align: left;
+  opacity: 1;
+}
+.third_banner .card .text-info {
+  font: normal normal 600 20px Muli;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-align: left;
+  opacity: 1;
+  -webkit-margin-after: 2em;
+          margin-block-end: 2em;
+}
+.third_banner .card .btn {
+  display: flex;
+  outline: 0;
+  display: inline-block;
+  padding: 13px 56px 13px 51px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0px;
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  background-color: #1B252C;
+  font: normal normal bold 14px Muli;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.third_banner .locpin_line img {
+  width: 40px;
+  margin: 0px 0px 0px 16px;
+}
+.third_banner .locpin_line .line {
+  border-top: 8px solid #E26A2C;
+  width: 20%;
+}
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .third_banner .container {
+    max-width: 768px;
+    padding: 0px 0px 0px 0px;
+  }
+  .third_banner .row {
+    margin: 0px 0px;
+  }
+  .third_banner .phn-container {
+    padding: 0rem 1rem;
+  }
+  .third_banner .reverse {
+    display: flex;
+    flex-direction: column;
+  }
+  .third_banner .banner-img {
+    margin: 0px;
+  }
+  .third_banner .card {
+    padding: 72px 26px 40px 26px;
+    min-height: 159px;
+    margin-top: -30px;
+    text-align: center;
+  }
+  .third_banner .card .text {
+    font: normal normal 600 36px Source Serif Pro;
+    text-align: center;
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+  }
+  .third_banner .card .text-info {
+    text-align: center;
+  }
+  .third_banner .card .btn {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 850px) and (min-width: 769px) {
+  .third_banner .card {
+    padding: 1rem 2rem 1rem 2rem !important;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .third_banner .card {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .third_banner .card .text {
+    font: normal normal 600 36px Source Serif Pro;
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+  }
+  .third_banner .card .text-info {
+    font: normal normal 600 14px Muli;
+  }
+  .third_banner .card .btn {
+    font: normal normal bold 8px Muli;
+    padding: 6px 25px 6px 25px;
+  }
+}
+@media screen and (max-width: 1151px) and (min-width: 1025px) {
+  .third_banner .card {
+    padding: 1rem 2rem 1rem 2rem !important;
+  }
+  .third_banner .card .text {
+    font: normal normal 600 24px Source Serif Pro;
+  }
+  .third_banner .card .text-info {
+    font: normal normal 600 14px Muli;
+  }
+  .third_banner .card .btn {
+    font: normal normal bold 8px Muli;
+    padding: 6px 25px 6px 25px;
+  }
+}
+@media screen and (max-width: 1050px) and (min-width: 1025px) {
+  .third_banner .card {
+    padding: 1rem 2rem 0rem 2rem !important;
+  }
+}
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .third_banner .card {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .third_banner .card .text {
+    font: normal normal 600 36px Source Serif Pro;
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+  }
+  .third_banner .card .text-info {
+    font: normal normal 600 16px Muli;
+  }
+  .third_banner .card .btn {
+    font: normal normal bold 12px Muli;
+    padding: 6px 25px 6px 25px;
+  }
+}
+@media screen and (max-width: 1340px) and (min-width: 1281px) {
+  .third_banner .card {
+    padding: 1rem 1rem 1rem 1rem !important;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1281px) {
+  .third_banner .card {
+    padding: 2rem 2rem 1.5rem 2rem;
+  }
+  .third_banner .card .text {
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+  }
+}
+@media screen and (max-width: 1760px) and (min-width: 1441px) {
+  .third_banner .card {
+    padding: 7rem 2rem 1.7rem 2rem !important;
+  }
+}
+@media screen and (max-width: 1640px) and (min-width: 1441px) {
+  .third_banner .card {
+    padding: 51px 50px 52px 57px !important;
+  }
+}
+@media screen and (max-width: 1540px) and (min-width: 1441px) {
+  .third_banner .card {
+    padding: 51px 50px 40px 57px !important;
+  }
+}
+@media screen and (max-width: 1920px) and (min-width: 1441px) {
+  .third_banner .card {
+    padding: 108px 82px 65px 108px;
+  }
+  .third_banner .card .text {
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+  }
+}/*# sourceMappingURL=thirdBanner.css.map */

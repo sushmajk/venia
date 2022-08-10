@@ -1,0 +1,108 @@
+/* Colors:  1
+$primary-d1: #172BC4;
+$primary-m1: #336DFF;
+$primary-brand: #1F39FF;
+$primary-l1: #3D84FF;
+$gray-d2: #181C24;
+$gray-d1: #535965;
+$gray-m1: #91959C;
+$gray-l2: #B5B7BC;
+$gray-l1: #E5E5E7;
+$white: #FFFFFF;
+$positive-2: #12805C;
+$positive-1: #268E6C;
+$negative-2: #C9252D;
+$negative-1: #D7373F; */
+/* Font/text values */
+/* Character Styles */
+.productCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productCard .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-clip: border-box;
+  width: 15%;
+  bottom: 55px;
+}
+.productCard .card .card__body {
+  flex: 1 1 auto;
+}
+.productCard .card .card__img_wrapper {
+  display: flex;
+  margin: auto;
+  max-width: 100%;
+  width: 349px;
+  height: 320px;
+  transform: scale(1);
+  vertical-align: middle;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+.productCard .card .card__content {
+  position: absolute;
+  width: 80%;
+  bottom: 0px;
+  left: 0px;
+  padding: 0px 0px 0px 38px;
+  border-bottom: 8px solid #E26A2C;
+  background: rgba(27, 37, 44, 0.8509803922) 0% 0% no-repeat padding-box;
+}
+.productCard .card .card__content .card__title {
+  font: normal normal 600 24px Source Serif Pro;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-align: left;
+  opacity: 1;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+}
+.productCard .card .card__content .card__info {
+  font: normal normal normal 16px Muli;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-align: left;
+  opacity: 1;
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 1.4em;
+          margin-block-end: 1.4em;
+}
+@media screen and (max-width: 768px) and (min-width: 580px) {
+  .productCard {
+    flex-direction: row !important;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .productCard {
+    flex-direction: column;
+    padding: 16px;
+  }
+  .productCard .card {
+    width: 100%;
+  }
+  .productCard .card .card__content {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .productCard .card {
+    width: 22%;
+  }
+}
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .productCard .card {
+    width: 22%;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1281px) {
+  .productCard .card {
+    width: 22%;
+  }
+}/*# sourceMappingURL=productCard.css.map */

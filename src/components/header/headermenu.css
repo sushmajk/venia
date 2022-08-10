@@ -1,0 +1,132 @@
+/* Colors:  1
+$primary-d1: #172BC4;
+$primary-m1: #336DFF;
+$primary-brand: #1F39FF;
+$primary-l1: #3D84FF;
+$gray-d2: #181C24;
+$gray-d1: #535965;
+$gray-m1: #91959C;
+$gray-l2: #B5B7BC;
+$gray-l1: #E5E5E7;
+$white: #FFFFFF;
+$positive-2: #12805C;
+$positive-1: #268E6C;
+$negative-2: #C9252D;
+$negative-1: #D7373F; */
+/* Font/text values */
+/* Character Styles */
+.headerMenu {
+  display: flex;
+  position: relative;
+  z-index: 10;
+}
+.headerMenu #sidebarMenu {
+  height: 100%;
+  position: fixed;
+  left: 0;
+  width: 90%;
+  margin-top: -24px;
+  transform: translateX(-1074px);
+  transition: transform 250ms ease-in-out;
+  background: var(--white) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1490196078);
+}
+.headerMenu .sidebarMenuInner {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.headerMenu .sidebarMenuInner .align {
+  padding: 30px;
+}
+.headerMenu .sidebarMenuInner li {
+  list-style: none;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-muli);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-172026);
+  text-align: left;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  opacity: 1;
+}
+.headerMenu .sidebarMenuInner li a {
+  color: #fff;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-muli);
+  color: #172026;
+  cursor: pointer;
+  cursor: pointer;
+  text-decoration: none;
+}
+.headerMenu input[type=checkbox]:checked ~ #sidebarMenu {
+  transform: translateX(0);
+}
+.headerMenu input[type=checkbox] {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  display: none;
+}
+.headerMenu .sidebarIconToggle {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  top: 2px;
+  left: 1px;
+  height: 22px;
+  width: 22px;
+}
+.headerMenu .spinner {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+.headerMenu input[type=checkbox]:checked ~ .spinner {
+  background-color: black;
+}
+.headerMenu .horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px;
+}
+.headerMenu .diagonal.part-1 {
+  position: relative;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  float: left;
+}
+.headerMenu .diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px;
+}
+.headerMenu input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  opacity: 0;
+}
+.headerMenu input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(135deg);
+  margin-top: 8px;
+  background-color: black;
+}
+.headerMenu input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(-135deg);
+  margin-top: -9px;
+  background-color: black;
+}/*# sourceMappingURL=headermenu.css.map */

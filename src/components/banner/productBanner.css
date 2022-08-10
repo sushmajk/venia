@@ -1,0 +1,169 @@
+/* Colors:  1
+$primary-d1: #172BC4;
+$primary-m1: #336DFF;
+$primary-brand: #1F39FF;
+$primary-l1: #3D84FF;
+$gray-d2: #181C24;
+$gray-d1: #535965;
+$gray-m1: #91959C;
+$gray-l2: #B5B7BC;
+$gray-l1: #E5E5E7;
+$white: #FFFFFF;
+$positive-2: #12805C;
+$positive-1: #268E6C;
+$negative-2: #C9252D;
+$negative-1: #D7373F; */
+/* Font/text values */
+/* Character Styles */
+.ProductBanner {
+  display: flex;
+}
+.ProductBanner .container {
+  width: 100%;
+  padding: 0px 15px 0px 15px;
+}
+.ProductBanner .banner-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 16px 0px;
+}
+.ProductBanner .card {
+  position: relative;
+  width: 100%;
+  min-height: 203px;
+  height: auto;
+  overflow: hidden;
+  padding: 2rem 2rem 1rem 2rem;
+  background: #090506;
+  background: linear-gradient(to bottom, #090506, #070709);
+}
+.ProductBanner .card .text {
+  font: normal normal 600 48px Source Serif Pro;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 1;
+}
+.ProductBanner .card .line {
+  border-top: 8px solid #FF8243;
+  width: 20%;
+  margin: auto;
+}
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .ProductBanner .container {
+    max-width: 768px;
+    padding: 0px 0px 0px 0px;
+  }
+  .ProductBanner .row {
+    margin: 0px 0px;
+  }
+  .ProductBanner .phn-container {
+    padding: 0rem 1rem;
+  }
+  .ProductBanner .banner-img {
+    margin: 0px;
+  }
+  .ProductBanner .card {
+    padding: 0rem 0rem 0rem 0rem;
+    min-height: 159px;
+    margin-top: -30px;
+  }
+  .ProductBanner .card .text {
+    font: normal normal 600 36px Source Serif Pro;
+    padding: 2rem 0rem 0rem 0rem;
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+  }
+}
+@media screen and (max-width: 850px) and (min-width: 769px) {
+  .ProductBanner .card {
+    padding: 1rem 2rem 1rem 2rem !important;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .ProductBanner .card {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .ProductBanner .card .text {
+    padding: 2rem 0rem 0rem 0rem;
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+  }
+}
+@media screen and (max-width: 1150px) and (min-width: 1025px) {
+  .ProductBanner .card {
+    padding: 3rem 2rem 3rem 2rem !important;
+  }
+}
+@media screen and (max-width: 1050px) and (min-width: 1025px) {
+  .ProductBanner .card {
+    padding: 1rem 2rem 0rem 2rem !important;
+  }
+}
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .ProductBanner .card {
+    padding: 4rem 2rem 4rem 2rem;
+  }
+  .ProductBanner .card .text {
+    padding: 2rem 0rem 0rem 0rem;
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1281px) {
+  .ProductBanner .card {
+    padding: 3rem 2rem 3.5rem 2rem;
+  }
+  .ProductBanner .card .text {
+    padding: 3rem 2rem 2rem 2rem;
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+  }
+}
+@media screen and (max-width: 1536px) and (min-width: 1281px) {
+  .ProductBanner .card {
+    padding: 5rem 2rem 5.5rem 2rem !important;
+  }
+  .ProductBanner .card .text {
+    padding: 3rem 2rem 2rem 2rem;
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+  }
+}
+@media screen and (max-width: 1760px) and (min-width: 1441px) {
+  .ProductBanner .card {
+    padding: 7rem 2rem 6.7rem 2rem !important;
+  }
+}
+@media screen and (max-width: 1540px) and (min-width: 1441px) {
+  .ProductBanner .card {
+    padding: 7rem 2rem 5.5rem 2rem !important;
+  }
+  .ProductBanner .card .text {
+    padding: 1rem 6rem 1rem 6rem !important;
+  }
+}
+@media screen and (max-width: 1920px) and (min-width: 1441px) {
+  .ProductBanner .card {
+    padding: 9rem 5rem 7.7rem 5rem;
+  }
+  .ProductBanner .card .text {
+    padding: 3rem 6rem 3rem 6rem;
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+  }
+}/*# sourceMappingURL=productBanner.css.map */
